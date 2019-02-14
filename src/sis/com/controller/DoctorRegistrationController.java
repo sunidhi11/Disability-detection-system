@@ -3,6 +3,7 @@ package sis.com.controller;
 import java.io.IOException;
 
 
+
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -36,6 +37,7 @@ public class DoctorRegistrationController extends HttpServlet {
 	DoctorDao dao=sis.com.dao.daofactory.DaoFactory.getDoctorDao();
 	boolean result=dao.addDoctor( doctor);
 	if(result==true){
+		response.sendRedirect("doctor_register.jsp");
 		System.out.println("doctor..........");
 	}
 

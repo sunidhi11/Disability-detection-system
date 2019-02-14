@@ -83,7 +83,7 @@ input[type=text]:focus {
 								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 									<ul class="nav navbar-nav">
 										<li class="active">
-											<a href="hostelG.jsp">
+											<a href="home.jsp">
 												<span class="glyphicon glyphicon-home">&nbsp;HOME 
 												<span class="sr-only">(current)</span>
 											</a>
